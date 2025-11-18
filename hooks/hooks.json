@@ -1,0 +1,182 @@
+{
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "name": "agent-skill-matcher",
+      "description": "Automatically suggest relevant skills based on user's selected agent",
+      "trigger": "agent_selected",
+      "action": "suggest_skills",
+      "config": {
+        "enabled": true,
+        "auto_suggest": true,
+        "max_suggestions": 5
+      }
+    },
+    {
+      "name": "learning-progress-tracker",
+      "description": "Track user progress through learning roadmaps",
+      "trigger": "milestone_completed",
+      "action": "update_progress",
+      "config": {
+        "enabled": true,
+        "track_completion": true,
+        "calculate_stats": true
+      }
+    },
+    {
+      "name": "skill-assessment-timer",
+      "description": "Track time spent on skill assessments",
+      "trigger": "assessment_started",
+      "action": "log_time",
+      "config": {
+        "enabled": true,
+        "log_session": true
+      }
+    },
+    {
+      "name": "roadmap-recommendation-engine",
+      "description": "Generate personalized roadmap recommendations based on assessment scores",
+      "trigger": "assessment_completed",
+      "action": "generate_recommendations",
+      "config": {
+        "enabled": true,
+        "use_ai": true,
+        "personalization_level": "high"
+      }
+    },
+    {
+      "name": "command-usage-analytics",
+      "description": "Track which commands and agents are most frequently used",
+      "trigger": "command_executed",
+      "action": "log_analytics",
+      "config": {
+        "enabled": true,
+        "track_commands": true,
+        "track_agents": true,
+        "report_frequency": "weekly"
+      }
+    },
+    {
+      "name": "resource-link-validator",
+      "description": "Validate that external resource links are current",
+      "trigger": "resource_accessed",
+      "action": "validate_link",
+      "config": {
+        "enabled": true,
+        "cache_validation": true,
+        "cache_ttl": 86400
+      }
+    },
+    {
+      "name": "skill-prerequisite-validator",
+      "description": "Warn users if they're attempting advanced topics without prerequisites",
+      "trigger": "topic_accessed",
+      "action": "validate_prerequisites",
+      "config": {
+        "enabled": true,
+        "check_strict": false,
+        "show_recommendations": true
+      }
+    },
+    {
+      "name": "community-notification",
+      "description": "Notify users about relevant community discussions",
+      "trigger": "skill_started",
+      "action": "notify_community",
+      "config": {
+        "enabled": true,
+        "mention_discussions": true,
+        "max_notifications": 3
+      }
+    },
+    {
+      "name": "achievement-system",
+      "description": "Award achievements for completing milestones",
+      "trigger": "milestone_completed",
+      "action": "award_achievement",
+      "config": {
+        "enabled": true,
+        "show_badges": true,
+        "share_to_profile": true
+      }
+    },
+    {
+      "name": "study-streak-tracker",
+      "description": "Track consecutive days of learning activity",
+      "trigger": "daily_activity",
+      "action": "update_streak",
+      "config": {
+        "enabled": true,
+        "reset_on_miss": true,
+        "notify_on_achievement": true
+      }
+    }
+  ],
+  "automation_rules": [
+    {
+      "name": "auto_suggest_next_topic",
+      "condition": "milestone_completed",
+      "action": "suggest_next_topic",
+      "enabled": true
+    },
+    {
+      "name": "auto_save_progress",
+      "condition": "user_activity_detected",
+      "action": "save_progress",
+      "enabled": true,
+      "interval_seconds": 30
+    },
+    {
+      "name": "weekly_progress_summary",
+      "condition": "weekly_check",
+      "action": "send_summary",
+      "enabled": true,
+      "day_of_week": "monday",
+      "time": "09:00"
+    },
+    {
+      "name": "remind_incomplete_assessments",
+      "condition": "assessment_started_but_not_completed",
+      "action": "send_reminder",
+      "enabled": true,
+      "hours_after_start": 24
+    },
+    {
+      "name": "recommend_study_buddy",
+      "condition": "learning_goal_similar_to_other_user",
+      "action": "suggest_study_partner",
+      "enabled": true
+    }
+  ],
+  "notifications": {
+    "enabled": true,
+    "channels": ["in_app", "email"],
+    "preferences": {
+      "frequency": "daily_digest",
+      "quiet_hours": "22:00-08:00",
+      "opt_out_available": true
+    }
+  },
+  "data_collection": {
+    "enabled": true,
+    "collect": [
+      "command_usage",
+      "agent_interactions",
+      "skill_assessment_scores",
+      "learning_progress",
+      "time_spent",
+      "resource_access"
+    ],
+    "privacy": {
+      "anonymize": true,
+      "retention_days": 90,
+      "gdpr_compliant": true
+    }
+  },
+  "performance": {
+    "cache_enabled": true,
+    "cache_ttl_seconds": 3600,
+    "batch_operations": true,
+    "lazy_load_resources": true
+  }
+}

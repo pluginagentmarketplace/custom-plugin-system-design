@@ -1,0 +1,126 @@
+{
+  "name": "custom-plugin-system-design",
+  "version": "1.0.0",
+  "description": "Ultra-comprehensive developer roadmap plugin with 77+ learning paths organized into 7 specialized agents, covering 30 role-based roadmaps and 40+ skill-based learning tracks from roadmap.sh",
+  "author": "Plugin Agent Marketplace",
+  "type": "learning-system",
+  "agents": [
+    {
+      "name": "frontend-web-development",
+      "path": "agents/01-frontend-web-development.md",
+      "description": "Frontend & Web Development specialist - React, Vue, Angular, Next.js, TypeScript, JavaScript, HTML, CSS, Design Systems"
+    },
+    {
+      "name": "backend-server-development",
+      "path": "agents/02-backend-server-development.md",
+      "description": "Backend & Server Development specialist - Node.js, Python, Java, Go, PHP, ASP.NET Core, GraphQL, API Design"
+    },
+    {
+      "name": "mobile-development",
+      "path": "agents/03-mobile-development.md",
+      "description": "Mobile Development specialist - Android, iOS, React Native, Flutter, Swift"
+    },
+    {
+      "name": "data-science-ai",
+      "path": "agents/04-data-science-ai.md",
+      "description": "Data Science & AI specialist - Machine Learning, AI Engineering, Data Analytics, MLOps, Prompt Engineering"
+    },
+    {
+      "name": "devops-cloud-infrastructure",
+      "path": "agents/05-devops-cloud-infrastructure.md",
+      "description": "DevOps & Cloud Infrastructure specialist - Docker, Kubernetes, AWS, Terraform, Linux, Cloud Platforms"
+    },
+    {
+      "name": "database-system-design",
+      "path": "agents/06-database-system-design.md",
+      "description": "Database & System Design specialist - PostgreSQL, MongoDB, Redis, System Design, Architecture Patterns"
+    },
+    {
+      "name": "architecture-leadership-security",
+      "path": "agents/07-architecture-leadership-security.md",
+      "description": "Architecture, Leadership & Security specialist - Software Architecture, Engineering Management, Cybersecurity, Blockchain"
+    }
+  ],
+  "commands": [
+    {
+      "name": "learn-roadmap",
+      "path": "commands/learn-roadmap.md",
+      "description": "Start learning with an interactive roadmap selection"
+    },
+    {
+      "name": "explore-agents",
+      "path": "commands/explore-agents.md",
+      "description": "Explore all 7 specialized agents and their capabilities"
+    },
+    {
+      "name": "skill-assessment",
+      "path": "commands/skill-assessment.md",
+      "description": "Evaluate your current skills and get personalized learning paths"
+    },
+    {
+      "name": "roadmap-search",
+      "path": "commands/roadmap-search.md",
+      "description": "Search across all 77+ roadmaps and learning paths"
+    }
+  ],
+  "skills": [
+    {
+      "id": "frontend-technologies",
+      "name": "Frontend Technologies",
+      "path": "skills/frontend-technologies/SKILL.md",
+      "agents": ["frontend-web-development"]
+    },
+    {
+      "id": "backend-frameworks",
+      "name": "Backend Frameworks & Languages",
+      "path": "skills/backend-frameworks/SKILL.md",
+      "agents": ["backend-server-development"]
+    },
+    {
+      "id": "mobile-platforms",
+      "name": "Mobile Development Platforms",
+      "path": "skills/mobile-platforms/SKILL.md",
+      "agents": ["mobile-development"]
+    },
+    {
+      "id": "ai-ml-tools",
+      "name": "AI & Machine Learning Tools",
+      "path": "skills/ai-ml-tools/SKILL.md",
+      "agents": ["data-science-ai"]
+    },
+    {
+      "id": "cloud-devops",
+      "name": "Cloud & DevOps Platforms",
+      "path": "skills/cloud-devops/SKILL.md",
+      "agents": ["devops-cloud-infrastructure"]
+    },
+    {
+      "id": "database-technologies",
+      "name": "Database Technologies",
+      "path": "skills/database-technologies/SKILL.md",
+      "agents": ["database-system-design"]
+    },
+    {
+      "id": "system-design",
+      "name": "System Design & Architecture",
+      "path": "skills/system-design/SKILL.md",
+      "agents": ["database-system-design", "architecture-leadership-security"]
+    },
+    {
+      "id": "security-compliance",
+      "name": "Security & Compliance",
+      "path": "skills/security-compliance/SKILL.md",
+      "agents": ["architecture-leadership-security"]
+    },
+    {
+      "id": "leadership-management",
+      "name": "Leadership & Management",
+      "path": "skills/leadership-management/SKILL.md",
+      "agents": ["architecture-leadership-security"]
+    }
+  ],
+  "keywords": ["roadmap", "learning-path", "developer-skills", "career-development", "skill-tracking", "agent-based-learning"],
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-system-design",
+  "homepage": "https://roadmap.sh",
+  "minimumClaudeVersion": "4.0.0"
+}
