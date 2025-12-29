@@ -1,3 +1,9 @@
+---
+name: explore-agents
+description: agents
+allowed-tools: Read
+---
+
 # /explore-agents
 
 Explore all 7 specialized agents and their capabilities for discovering expert guidance.

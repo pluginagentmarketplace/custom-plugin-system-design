@@ -1,3 +1,9 @@
+---
+name: learn-roadmap
+description: roadmap
+allowed-tools: Read
+---
+
 # /learn-roadmap
 
 Start learning with an interactive roadmap selection and personalized learning path.

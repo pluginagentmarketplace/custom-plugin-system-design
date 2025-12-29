@@ -1,3 +1,9 @@
+---
+name: roadmap-search
+description: search
+allowed-tools: Read
+---
+
 # /roadmap-search
 
 Search across all 77+ developer roadmaps and learning paths from roadmap.sh.

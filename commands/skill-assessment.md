@@ -1,3 +1,9 @@
+---
+name: skill-assessment
+description: assessment
+allowed-tools: Read
+---
+
 # /skill-assessment
 
 Evaluate your current skills and get personalized recommendations for learning paths.

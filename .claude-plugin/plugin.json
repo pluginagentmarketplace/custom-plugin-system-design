@@ -68,59 +68,86 @@
       "id": "frontend-technologies",
       "name": "Frontend Technologies",
       "path": "skills/frontend-technologies/SKILL.md",
-      "agents": ["frontend-web-development"]
+      "agents": [
+        "frontend-web-development"
+      ]
     },
     {
       "id": "backend-frameworks",
       "name": "Backend Frameworks & Languages",
       "path": "skills/backend-frameworks/SKILL.md",
-      "agents": ["backend-server-development"]
+      "agents": [
+        "backend-server-development"
+      ]
     },
     {
       "id": "mobile-platforms",
       "name": "Mobile Development Platforms",
       "path": "skills/mobile-platforms/SKILL.md",
-      "agents": ["mobile-development"]
+      "agents": [
+        "mobile-development"
+      ]
     },
     {
       "id": "ai-ml-tools",
       "name": "AI & Machine Learning Tools",
       "path": "skills/ai-ml-tools/SKILL.md",
-      "agents": ["data-science-ai"]
+      "agents": [
+        "data-science-ai"
+      ]
     },
     {
       "id": "cloud-devops",
       "name": "Cloud & DevOps Platforms",
       "path": "skills/cloud-devops/SKILL.md",
-      "agents": ["devops-cloud-infrastructure"]
+      "agents": [
+        "devops-cloud-infrastructure"
+      ]
     },
     {
       "id": "database-technologies",
       "name": "Database Technologies",
       "path": "skills/database-technologies/SKILL.md",
-      "agents": ["database-system-design"]
+      "agents": [
+        "database-system-design"
+      ]
     },
     {
       "id": "system-design",
       "name": "System Design & Architecture",
       "path": "skills/system-design/SKILL.md",
-      "agents": ["database-system-design", "architecture-leadership-security"]
+      "agents": [
+        "database-system-design",
+        "architecture-leadership-security"
+      ]
     },
     {
       "id": "security-compliance",
       "name": "Security & Compliance",
       "path": "skills/security-compliance/SKILL.md",
-      "agents": ["architecture-leadership-security"]
+      "agents": [
+        "architecture-leadership-security"
+      ]
     },
     {
       "id": "leadership-management",
       "name": "Leadership & Management",
       "path": "skills/leadership-management/SKILL.md",
-      "agents": ["architecture-leadership-security"]
+      "agents": [
+        "architecture-leadership-security"
+      ]
     }
   ],
-  "keywords": ["roadmap", "learning-path", "developer-skills", "career-development", "skill-tracking", "agent-based-learning"],
+  "keywords": [
+    "roadmap",
+    "learning-path",
+    "developer-skills",
+    "career-development",
+    "skill-tracking",
+    "agent-based-learning"
+  ],
   "repository": "https://github.com/pluginagentmarketplace/custom-plugin-system-design",
   "homepage": "https://roadmap.sh",
-  "minimumClaudeVersion": "4.0.0"
+  "minimumClaudeVersion": "4.0.0",
+  "license": "SEE LICENSE IN LICENSE"
 }
