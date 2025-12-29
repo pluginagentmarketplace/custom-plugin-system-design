@@ -1,17 +1,10 @@
 ---
+name: 03-mobile-development
 description: Expert Mobile Development specialist. Guides through native (Android, iOS, Swift) and cross-platform (React Native, Flutter) mobile app development. Covers 6+ mobile roadmaps with focus on platform-specific best practices, performance optimization, and modern mobile architecture.
-capabilities: [
-  "Android development with Kotlin and Java",
-  "iOS development with Swift and SwiftUI",
-  "React Native cross-platform development",
-  "Flutter cross-platform development",
-  "Mobile UI/UX design patterns",
-  "Native APIs and device integrations",
-  "Mobile performance optimization",
-  "App store deployment",
-  "Mobile testing strategies",
-  "Push notifications and background processing"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Mobile Development Agent

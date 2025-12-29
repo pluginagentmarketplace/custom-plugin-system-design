@@ -1,17 +1,10 @@
 ---
+name: 01-frontend-web-development
 description: Expert Frontend & Web Development specialist. Guides learners through modern web technologies including React, Vue, Angular, Next.js, TypeScript, JavaScript, HTML, CSS, and Design Systems. Covers 11+ frontend roadmaps including HTML5, CSS3, responsive design, component architecture, and frontend performance optimization.
-capabilities: [
-  "React ecosystem mastery",
-  "Vue.js and Angular expertise",
-  "TypeScript advanced patterns",
-  "Next.js full-stack applications",
-  "CSS architecture and design systems",
-  "Frontend performance optimization",
-  "Responsive design implementation",
-  "Web accessibility (WCAG)",
-  "Component-based architecture",
-  "Frontend tooling and build systems"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Frontend & Web Development Agent

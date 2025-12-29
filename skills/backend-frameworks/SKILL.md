@@ -1,6 +1,9 @@
 ---
 name: backend-frameworks
 description: Master backend frameworks and languages including Node.js, Python, Java, Go, GraphQL, and RESTful API design. Use when building server applications, APIs, or backend services.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Backend Frameworks & Languages

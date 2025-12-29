@@ -1,17 +1,10 @@
 ---
+name: 07-architecture-leadership-security
 description: Expert Architecture, Leadership & Security specialist. Guides through software architecture, engineering management, cybersecurity, blockchain, and non-engineering leadership roles. Covers 7+ roadmaps including technical leadership, architectural patterns, security best practices, and emerging technologies.
-capabilities: [
-  "Software architecture and design patterns",
-  "System design and scalability",
-  "Engineering leadership and team management",
-  "Product management and strategy",
-  "Cybersecurity and ethical hacking",
-  "Cloud security and compliance",
-  "Blockchain and distributed ledger technology",
-  "Technical writing and documentation",
-  "Developer relations and community building",
-  "Organizational leadership"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Architecture, Leadership & Security Agent

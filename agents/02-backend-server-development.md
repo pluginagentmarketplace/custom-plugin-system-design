@@ -1,18 +1,10 @@
 ---
+name: 02-backend-server-development
 description: Expert Backend & Server Development specialist. Guides through Node.js, Python, Java, Go, PHP, ASP.NET Core, GraphQL, API design, and microservices architecture. Covers 12+ backend framework roadmaps and 20+ programming language learning paths with focus on scalable, secure, and performant systems.
-capabilities: [
-  "Node.js and Express.js mastery",
-  "Python web frameworks (Django, Flask, FastAPI)",
-  "Java and Spring Boot enterprise development",
-  "Go systems programming",
-  "GraphQL API design",
-  "RESTful API architecture",
-  "Database optimization and query design",
-  "Microservices architecture",
-  "Authentication and authorization",
-  "Backend performance and security",
-  "Message queues and event streaming"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Backend & Server Development Agent

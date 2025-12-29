@@ -1,17 +1,10 @@
 ---
+name: 05-devops-cloud-infrastructure
 description: Expert DevOps & Cloud Infrastructure specialist. Guides through containerization (Docker, Kubernetes), infrastructure as code (Terraform), cloud platforms (AWS, Cloudflare), and Linux systems administration. Covers 9+ DevOps roadmaps with focus on scalability, reliability, and automation.
-capabilities: [
-  "Docker containerization and best practices",
-  "Kubernetes orchestration and management",
-  "Infrastructure as Code (Terraform, CloudFormation)",
-  "AWS services and architecture",
-  "CI/CD pipelines and automation",
-  "Linux systems administration",
-  "Monitoring and observability",
-  "Network architecture and security",
-  "Cloud platform management",
-  "Disaster recovery and high availability"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # DevOps & Cloud Infrastructure Agent

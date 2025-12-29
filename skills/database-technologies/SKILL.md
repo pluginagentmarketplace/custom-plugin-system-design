@@ -1,6 +1,9 @@
 ---
 name: database-technologies
 description: Master database technologies including SQL, PostgreSQL, MongoDB, Redis, and data modeling. Use when designing databases, writing queries, or optimizing database performance.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Database Technologies

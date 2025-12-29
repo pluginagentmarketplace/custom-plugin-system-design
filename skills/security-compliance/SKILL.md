@@ -1,6 +1,9 @@
 ---
 name: security-compliance
 description: Master security principles, cryptography, compliance frameworks, and secure development practices. Use when securing applications, implementing authentication/authorization, or ensuring regulatory compliance.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Security & Compliance

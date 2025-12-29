@@ -1,6 +1,9 @@
 ---
 name: system-design
 description: Master system design principles for building scalable, reliable, and maintainable systems. Use when designing large-scale applications, planning architecture, or preparing for system design interviews.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # System Design & Architecture

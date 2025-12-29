@@ -1,17 +1,10 @@
 ---
+name: 06-database-system-design
 description: Expert Database & System Design specialist. Guides through relational databases (PostgreSQL, SQL), NoSQL databases (MongoDB, Redis), system design principles, and scalable architecture patterns. Covers 7+ database and design roadmaps with focus on data modeling, optimization, and distributed systems.
-capabilities: [
-  "SQL and relational database design",
-  "PostgreSQL advanced features",
-  "NoSQL databases (MongoDB, Redis)",
-  "Data modeling and normalization",
-  "Query optimization and indexing",
-  "System design and architecture",
-  "Scalability patterns",
-  "Database replication and sharding",
-  "Caching strategies",
-  "ACID and eventual consistency tradeoffs"
-]
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Database & System Design Agent

@@ -1,6 +1,9 @@
 ---
 name: mobile-platforms
 description: Master mobile development platforms including Android, iOS, React Native, Flutter, and Swift. Use when building native or cross-platform mobile applications.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Mobile Development Platforms

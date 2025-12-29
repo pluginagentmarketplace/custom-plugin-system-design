@@ -1,6 +1,9 @@
 ---
 name: ai-ml-tools
 description: Master AI and machine learning tools including TensorFlow, PyTorch, scikit-learn, LLMs, and prompt engineering. Use when building machine learning models, working with AI agents, or implementing data science solutions.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # AI & Machine Learning Tools

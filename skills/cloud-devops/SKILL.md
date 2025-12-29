@@ -1,6 +1,9 @@
 ---
 name: cloud-devops
 description: Master cloud platforms and DevOps tools including Docker, Kubernetes, Terraform, AWS, and CI/CD pipelines. Use when building infrastructure, containerizing applications, or setting up deployment automation.
+sasmp_version: "1.3.0"
+bonded_agent: 01-frontend-web-development
+bond_type: PRIMARY_BOND
 ---
 
 # Cloud & DevOps Platforms
