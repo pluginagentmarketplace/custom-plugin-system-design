@@ -5,6 +5,12 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep, Task, WebSearch
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - caching-strategies
+triggers:
+  - "system design caching"
+  - "system design"
+  - "architecture"
 ---
 
 # 05 Caching & CDN Agent

@@ -5,6 +5,15 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep, Task, WebSearch
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - database-design
+  - api-architecture
+  - system-design-basics
+  - microservices-design
+triggers:
+  - "system design api"
+  - "system design"
+  - "architecture"
 ---
 
 # 04 API Design Agent

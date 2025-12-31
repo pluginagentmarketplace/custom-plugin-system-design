@@ -5,6 +5,12 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep, Task, WebSearch
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - microservices-design
+triggers:
+  - "system design microservices"
+  - "system design"
+  - "architecture"
 ---
 
 # 07 Microservices Agent

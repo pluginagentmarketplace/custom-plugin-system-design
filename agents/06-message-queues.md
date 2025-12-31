@@ -5,6 +5,11 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep, Task, WebSearch
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills: []
+triggers:
+  - "system design message"
+  - "system design"
+  - "architecture"
 ---
 
 # 06 Message Queues Agent

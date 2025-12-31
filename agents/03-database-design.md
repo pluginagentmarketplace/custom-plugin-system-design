@@ -5,6 +5,14 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep, Task, WebSearch
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - database-design
+  - system-design-basics
+  - microservices-design
+triggers:
+  - "system design database"
+  - "system design"
+  - "architecture"
 ---
 
 # 03 Database Design Agent

@@ -5,6 +5,12 @@ model: sonnet
 tools: Read, Write, Bash, Glob, Grep, Task, WebSearch
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - distributed-systems
+triggers:
+  - "system design distributed"
+  - "system design"
+  - "architecture"
 ---
 
 # 02 Distributed Systems Agent
