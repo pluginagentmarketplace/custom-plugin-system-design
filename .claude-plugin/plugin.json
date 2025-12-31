@@ -16,22 +16,22 @@
   "commands": [
     {
       "name": "learn-roadmap",
-      "path": "commands/learn-roadmap.md",
+      "path": "./commands/learn-roadmap.md",
       "description": "Start learning with an interactive roadmap selection"
     },
     {
       "name": "explore-agents",
-      "path": "commands/explore-agents.md",
+      "path": "./commands/explore-agents.md",
       "description": "Explore all 7 specialized agents and their capabilities"
     },
     {
       "name": "skill-assessment",
-      "path": "commands/skill-assessment.md",
+      "path": "./commands/skill-assessment.md",
       "description": "Evaluate your current skills and get personalized learning paths"
     },
     {
       "name": "roadmap-search",
-      "path": "commands/roadmap-search.md",
+      "path": "./commands/roadmap-search.md",
       "description": "Search across all 77+ roadmaps and learning paths"
     }
   ],
